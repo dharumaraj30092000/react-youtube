@@ -1,0 +1,68 @@
+.white {
+  background: white;
+  .search-width {
+    width: 70%;
+  }
+  .btn-primary {
+    border: 1px solid #cccccc;
+    color: black;
+    background: #f8f8f8;
+  }
+  .btn {
+    border: 1px solid #cccccc;
+    padding: 10px 25px;
+    --bs-btn-border-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .btn-primary:hover {
+    background-color: #f1eeeee1;
+  }
+  .form-control {
+    border-radius: 0;
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  .form-control:focus {
+    border: 1px solid #444cbb;
+    box-shadow: 0.5px 1px 3px -1px #2b4a69d3 inset;
+  }
+  .sup {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .logo-name {
+    font-weight: 500;
+    font-family: "Staatliches", cursive;
+    text-transform: capitalize;
+  }
+  .user-sign {
+    border: 1px solid #e8e8e8;
+    padding: 3px 12px;
+    border-radius: 50px;
+    color: #565fd4;
+  }
+  .user-sign:hover {
+    background: #cef3f78c;
+    border: 1px solid #cef3f78c;
+  }
+  .sign-icon {
+    color: #347cdc;
+    text-shadow: 1px 0px 0px #87d4fc;
+  }
+  .header-hover {
+    padding: 10px;
+    background: transparent;
+  }
+  .header-hover:hover {
+    background-color: #e8e8e8;
+    border-radius: 50px;
+  }
+  .sign-in {
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 1px 0px 0px #87d4fc;
+  }
+}
